@@ -1,0 +1,22 @@
+Algunos comandos de apoyo
+-------------------------------------------------------
+1 Crear una rama local y luego subir los cambios a una rama remota
+-------------------------------------------------------
+git branch RAMA_LOCAL
+git add .
+git commit -m "ajustes pc03"
+git push -u origin RAMA_REMOTA
+-------------------------------------------------------
+2 Crear Rama Remota directamente
+-------------------------------------------------------
+git branch NOMBRE_RAMA origin/NOMBRE_RAMA   
+-------------------------------------------------------
+3 Ver todas las ramas locales y remotas
+-------------------------------------------------------
+git branch
+git branch --all
+-------------------------------------------------------
+4 Cambiar de una Rama a otra 
+-------------------------------------------------------
+git checkout NOMBRE_RAMA
+

@@ -1,0 +1,36 @@
+##############################################################
+Para subir un proyecto a GitHub por primera vez
+##############################################################
+1 Crear un Proyecto
+2 git init
+3 git add .
+4 git commit -m 
+5 Crear un repositorio en gitHub
+6 git remote add origin URL
+7 git push origin master
+
+##############################################################
+Para Clonar el proyecto por primera vez
+##############################################################
+1 Dar permisos a los programadores
+- Settings-> manage access->Invite colaborators
+2 Crear una Carpeta "DirPrueba"
+3 Click derecho a "DirPruba" gitBash
+4 git clone URL (primera vez)
+
+##############################################################
+Para traer los ultimos cambios remotos
+##############################################################
+1 git pull origin master
+
+##############################################################
+Para enviar los ultimos cambios remotos
+##############################################################
+1 git pull origin master
+2 Modificas tu proyecto
+3 git add .
+4 git commit -m "Comentario"
+5 git push origin master
+
+
+

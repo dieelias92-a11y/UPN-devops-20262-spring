@@ -1,0 +1,28 @@
+Ejercicio
+
+//Mostrar ramas locales
+git branch
+
+//Mostrar todas las ramas
+git branch --all
+
+//Crear las ramas
+git branch rama1
+git branch rama2
+
+//Cambios a cada rama
+git checkout rama1
+git add .
+git commit -m "Mensaje"
+git push origin rama1
+
+git checkout rama2
+git add .
+git commit -m "Mensaje"
+git push origin rama2
+
+//Se une las ramas a master
+git checkout master
+git merge rama1 -m "Mensaje" 
+git merge rama2 -m "Mensaje" 
+git push origin master
